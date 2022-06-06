@@ -20,4 +20,5 @@ for i in $list_git_folders; do
 
 	# `cd` back into the parent folder, so that the whole loop can go on.
 	cd ..
+
 done
