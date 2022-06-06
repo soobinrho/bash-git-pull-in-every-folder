@@ -17,3 +17,12 @@ git repositories here:
 
 Open your console. Go to the directory you store your repositories: `cd ~/git`
 and use the codes at `GitPullInEveryFolder`. This will `git pull` in every folder.
+
+How exactly can you do that? You can just copy and paste everything inside `GitPullInEveryFolder`
+on your console. I, however, personally use it as the following:
+
+```
+cd ~/git
+chmod +x bash-git-pull-in-every-folder/GitPullInEveryFolder
+./bash-git-pull-in-every-folder/GitPullInEveryFolder
+...
