@@ -25,12 +25,12 @@ on your console. I, however, personally use it as the following:
 # It works the same without installation -- you can just copy and paste everything 
 # inside `GitPullInEveryFolder`, but - for your information - you could use it this way.
 
-# The first time you use this
+# The first time you use this:
 cd ~/git
 git clone https://github.com/soobinrho/bash-git-pull-in-every-folder.git
 chmod +x bash-git-pull-in-every-folder/GitPullInEveryFolder
 
-# Everytime I use it
+# Everytime I use it:
 cd ~/git
 ./bash-git-pull-in-every-folder/GitPullInEveryFolder
 ...
