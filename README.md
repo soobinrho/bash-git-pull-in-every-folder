@@ -26,6 +26,7 @@ on your console. I, however, personally use it as the following:
 # inside `GitPullInEveryFolder`, but - for your information - you could use it this way.
 
 # The first time you use this:
+sudo dnf install git -y
 cd ~/git
 git clone https://github.com/soobinrho/bash-git-pull-in-every-folder.git
 chmod +x bash-git-pull-in-every-folder/GitPullInEveryFolder
