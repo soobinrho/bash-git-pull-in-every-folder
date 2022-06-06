@@ -7,7 +7,7 @@
 list_git_folders=$(find -name '.git' | cut -d/ -f-2)
 
 # For example, `find -name .git` results in `./bash-visualize-my-math-classes/.git`
-# Then, if you pipelining this into `cut -d/ -f-2` outputs `./bash-visualize-my-math-classes`.
+# Then, pipelining this into `cut -d/ -f-2` outputs `./bash-visualize-my-math-classes`.
 
 # Loop into every one of these folders.
 for i in $list_git_folders; do
