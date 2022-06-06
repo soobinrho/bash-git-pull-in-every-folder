@@ -7,8 +7,8 @@ then `git pull` in every single folder. This script automates this.
  
 # Example
 
-Suppose you have a folder at your home directory: ` ~/git` and you store all your
-git repositories here:
+Suppose you have a folder at your home directory: ` ~/git` storeing all your
+git repositories:
 
     .
     ├── bash-git-pull-in-every-folder
