@@ -15,8 +15,12 @@ for i in $list_git_folders; do
 	# `cd` into the target git folder.
 	cd $i
 
+	# Print the name of the folder.
+	printf "$i\n"
+
 	# Run `git pull`.
 	git pull
+	printf "\n"
 
 	# `cd` back into the parent folder, so that the whole loop can go on.
 	cd ..
