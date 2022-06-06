@@ -18,9 +18,9 @@ git repositories:
 Open your console. Go to the directory you store your repositories: `cd ~/git`
 and use the codes at `GitPullInEveryFolder`. This will `git pull` in every folder.
 
-How exactly can you do that? You can just copy and 
-paste everything inside `GitPullInEveryFolder`
-on your terminal. 
+How exactly can you do that? You can just open
+your terminal and copy and paste everything 
+on the file `GitPullInEveryFolder`. 
 
 I, however, personally use it 
 as the following:
