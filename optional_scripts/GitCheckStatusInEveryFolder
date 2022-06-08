@@ -20,7 +20,6 @@ for i in $list_git_folders; do
 
 	# Run `git status`.
 	git status
-	printf "\n"
 
 	# `cd` back into the parent folder, so that the whole loop can go on.
 	cd ..
