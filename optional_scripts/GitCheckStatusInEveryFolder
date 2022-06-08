@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Find every folder that has git.
+# What do the options here mean?
+# `-d/` means --delimiter of /.
+# `-f-2` means the second last column.
+list_git_folders=$(find -name '.git' | cut -d/ -f-2)
+
+# For example, `find -name .git` results in `./bash-visualize-my-math-classes/.git`
+# Then, pipelining this into `cut -d/ -f-2` outputs `./bash-visualize-my-math-classes`.
+
+# Loop into every one of these folders.
+for i in $list_git_folders; do
+
+	# `cd` into the target git folder.
+	cd $i
+
+	# Print the name of the folder.
+	printf "$i\n"
+
+	# Run `git pull`.
+	git pull
+	printf "\n"
+
+	# `cd` back into the parent folder, so that the whole loop can go on.
+	cd ..
+
+done
