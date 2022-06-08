@@ -4,7 +4,7 @@
 # What do the options here mean?
 # `-d/` means --delimiter of /.
 # `-f-2` means the second last column.
-list_git_folders=$(find -name '.git' | cut -d/ -f-2)
+list_git_folders=$(find ~/git/ -name '.git' | cut -d/ -f-5)
 
 # For example, `find -name .git` results in `./bash-visualize-my-math-classes/.git`
 # Then, pipelining this into `cut -d/ -f-2` outputs `./bash-visualize-my-math-classes`.
