@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# How do I personally use this script?
+# Here's an example:
+#
+# vim ~/.bashrc
+# [copy and paste]
+# alias GitAllPull=~/git/bash-git-pull-in-every-folder/GitPullInEveryFolder 
+#
+# Now, you can use it on your terminal just by typing: GitAllPull
+#
+
 # Find every folder that has git.
 # What do the options here mean?
 # `-d/` means --delimiter of /.
