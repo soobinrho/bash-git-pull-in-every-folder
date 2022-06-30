@@ -25,12 +25,12 @@ This will automatically `git pull` in every folder on your `~/git` directory.
 
 # Installation
 
-```bash
-# FYI, it works the same without installation as well.
-# You can just copy and paste everything on `GitPullInEveryFolder` file
-# onto your console, and it will work the same.
-# However, if you wnat, you could use it this way, too.
+FYI, it works the same without installation as well.
+You can just copy and paste everything on `GitPullInEveryFolder` file
+onto your console, and it will work the same.
+However, if you want, you could install it:
 
+```bash
 # Downloading the script.
 sudo dnf install git -y
 cd ~/git
@@ -48,4 +48,4 @@ alias GitAllPull=~/git/bash-git-pull-in-every-folder/GitPullInEveryFolder
 # Adding the script to the `~/.bashrc` allows you to
 # run `GitPullInEveryFolder` without going to its directory first like this:
 GitPullInEveryFolder
-...
+```
