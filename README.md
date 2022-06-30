@@ -7,7 +7,7 @@ then `git pull` in every single folder. This script automates this.
  
 # Example
 
-Suppose you have a folder at your home directory: ` ~/git` storeing all your
+Suppose you have a folder at your home directory: `~/git` storeing all your
 git repositories:
 
     .
@@ -15,15 +15,13 @@ git repositories:
     ├── bash-visualize-my-math-classes
     └── powershell-graphs-without-internet-access
 
-Open your console. Go to the directory you store your repositories: `cd ~/git`
-and use the codes at `GitPullInEveryFolder`. This will `git pull` in every folder.
+Open your console and type:
+```bash
+GitPullInEveryFolder
+```
+This will `git pull` in every folder on your `~/git` directory.
 
-How exactly can you do that? You can just open
-your terminal and then copy and paste everything 
-on the file `GitPullInEveryFolder` into the terminal.
-
-I, however, personally use it 
-as the following:
+# Installation
 
 ```
 # It works the same without installation -- you can just copy and paste everything 
