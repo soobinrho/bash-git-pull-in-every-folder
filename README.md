@@ -17,7 +17,7 @@ git repositories:
 
 Open your console and type:
 ```bash
-GitPullInEveryFolder
+PullGitAll
 ```
 This will automatically `git pull` in every folder on your `~/git` directory.
 
@@ -26,7 +26,7 @@ This will automatically `git pull` in every folder on your `~/git` directory.
 # Installation
 
 FYI, it works the same without installation as well.
-You can just copy and paste everything on `GitPullInEveryFolder` file
+You can just copy and paste everything on `PullGitAll` file
 onto your console, and it will work the same.
 However, if you want, you could install it:
 
@@ -35,17 +35,17 @@ However, if you want, you could install it:
 sudo dnf install git -y
 cd ~/git
 git clone https://github.com/soobinrho/bash-git-pull-in-every-folder.git
-chmod +x bash-git-pull-in-every-folder/GitPullInEveryFolder
+chmod +x bash-git-pull-in-every-folder/PullGitAll
 
-# Running `GitPullInEveryFolder`
+# Running `PullGitAll`
 cd ~/git
-./bash-git-pull-in-every-folder/GitPullInEveryFolder
+./bash-git-pull-in-every-folder/PullGitAll
 
 # (Optional) Adding the script to the `~/.bashrc`
 cat >> ~/.bashrc
-alias GitAllPull=~/git/bash-git-pull-in-every-folder/GitPullInEveryFolder
+alias PullGitAll=~/git/bash-git-pull-in-every-folder/PullGitAll
 
 # Adding the script to the `~/.bashrc` allows you to
-# run `GitPullInEveryFolder` without going to its directory first like this:
-GitPullInEveryFolder
+# run `PullGitAll` without going to its directory first like this:
+PullGitAll
 ```

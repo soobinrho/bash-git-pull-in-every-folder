@@ -5,11 +5,11 @@
 #
 # vim ~/.bashrc
 # [copy and paste]
-# alias GitAllStatus=~/git/bash-git-pull-in-every-folder/optional_scripts/GitCheckStatusInEveryFolder
+# alias GitAllPull=~/git/bash-git-pull-in-every-folder/PullGitInEveryFolder 
 #
-# Now, you can use this on your terminal just by typing: GitAllStatus
+# Now, you can use it on your terminal just by typing: PullGitAll
 #
- 
+
 # Find every folder that has git.
 # What do the options here mean?
 # `-d/` means --delimiter of /.
@@ -28,8 +28,8 @@ for i in $list_git_folders; do
 	# Print the name of the folder.
 	printf "$i\n"
 
-	# Run `git status`.
-	git status -s
+	# Run `git pull`.
+	git pull
 	printf "\n"
 
 	# `cd` back into the parent folder, so that the whole loop can go on.
