@@ -21,7 +21,7 @@ PullGitAll
 ```
 This will automatically `git pull` in every folder on your `~/git` directory.
 
-![GitAllPull](https://user-images.githubusercontent.com/19341857/176710324-6740bd75-4d39-4fa2-b7b5-7f916868322c.png)
+![PullGitAll](https://user-images.githubusercontent.com/19341857/176871556-f7368e41-43b2-4331-954c-5d6054e07c95.png)
 
 # Installation
 
