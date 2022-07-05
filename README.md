@@ -10,10 +10,14 @@ then `git pull` in every single folder. This script automates this.
 Suppose you have a folder at your home directory: `~/git` storeing all your
 git repositories:
 
-    .
-    ├── bash-git-pull-in-every-folder
-    ├── bash-visualize-my-math-classes
-    └── powershell-graphs-without-internet-access
+```bash
+home
+└── soobinrho
+    └── git
+        └── college-programming
+        └── dotfiles-personal
+        └── powershell-graphs-without-internet-access        
+```
 
 Open your console and type:
 ```bash
