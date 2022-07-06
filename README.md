@@ -13,10 +13,10 @@ git repositories:
 ```bash
 home
 └── soobinrho
-      └── git
-            └── college-programming
-            └── dotfiles-personal
-            └── powershell-graphs-without-internet-access        
+    └── git
+        └── college-programming
+        └── dotfiles-personal
+        └── powershell-graphs-without-internet-access        
 ```
 
 Open your console and type:
