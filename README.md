@@ -53,3 +53,8 @@ alias PullGitAll=~/git/bash-git-pull-in-every-folder/PullGitAll
 # run `PullGitAll` without going to its directory first like this:
 PullGitAll
 ```
+
+<br>
+<br>
+<br>
+
